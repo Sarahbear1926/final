@@ -69,12 +69,17 @@ nav{
   margin: 0 10px 0px 0px;
   /*padding: 20px;*/
   width: calc(60%/2);
+  
   display: flex;
   flex-direction: column;
   align-items: center;
   
   /* border: green dotted 7px; */
   /*border-radius: 25px;*/
+}
+img{
+  width:100%;
+  height:auto;
 }
 
 .links {
@@ -107,6 +112,7 @@ nav{
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-wrap: nowrap;
   /* border: green dotted 7px; */
   /*border-radius: 25px;*/
 }
@@ -156,7 +162,7 @@ nav{
 
 .text {
   color: black;
-  font-size: 18px;
+  font-size: 1.2vw;
   margin-top: 20px;
   margin-right: 10px;
   margin-left: 10px;
@@ -166,7 +172,10 @@ nav{
   /*-webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);*/
-  text-align: center;
+  /*text-align: center;
+  width: 100%;
+  height: auto;*/
+
   
 
 }
@@ -202,9 +211,8 @@ h2{
 
 p{
     font-size: 18px;
-    
-
-
+    /*border-bottom: 0;
+    flex-wrap: nowrap;*/
 }
 
 

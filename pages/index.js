@@ -39,7 +39,7 @@ export default function Home({ allPostsData }) {
             <h1>About</h1>
             <div className="picBio">
               <div className="aboutpic">
-                <img src="/images/profile.jpg" width="400" height="400" />
+                <img src="/images/profile.jpg" width="400" height="400" alt="profile" />
                 
                 <div className="links">
                   <div className='singleLinks'>
@@ -60,7 +60,16 @@ export default function Home({ allPostsData }) {
                 </div>
               </div>
               <div className='bio'>
-                <p>Hi! I'm Sarah. Check back soon for my bio!</p>
+                <p>Hi! I’m Sarah, and I'm an aspiring Software Developer. 
+                   Whether I'm relieving boredom with a fun puzzle game or helping students study smarter,
+                   I’m passionate about finding solutions that directly benefit those around me. I'm eager 
+                   to continue developing my skills in the workforce to create solutions that impact real people. 
+                   Have or know of any opportunities? Feel free to connect with me!
+                </p>
+                <p>I graduated from UC San Diego, in Summer of 2020, where I studied Math + Computer Science. 
+                    In my free time I enjoy reading, spending time with my friends, and anything outdoors 
+                    (surfing, tennis, and hiking are just a few of my favorites!)
+                </p>
                 
               </div>
               
