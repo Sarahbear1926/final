@@ -87,7 +87,7 @@ export default function Home({ allPostsData }) {
                       <div class="text">A mobile app multiplayer puzzle game based on BabaIsYou. </div>
                       <div class="text">Developed the screen sequence designs, implemented the frontend and contributed to the game logic and board design.</div>
                       <div class="text">Technical Skills: React-Native, Node.js, MongoDB, AWS </div>
-                      <div className="text"><a href='https://appstore.com/garyiswin' title='gary' target='_blank'><FontAwesomeIcon icon={['fas', 'puzzle-piece']}/></a></div>
+                      <div className="text"><a href='http://bit.ly/garyiswin' title='gary' target='_blank'><FontAwesomeIcon icon={['fas', 'puzzle-piece']}/></a></div>
                     </div>
                   </div>
                   <a href="https://appstore.com/garyiswin"><h2>GaryIsWin</h2></a>
